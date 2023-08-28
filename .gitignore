@@ -12,7 +12,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -56,9 +55,9 @@ yarn-error.log*
 
 # IntelliJ
 HELP.md
-target/
+
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
+
 !**/src/test/**/target/
 
 ### STS ###
