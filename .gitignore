@@ -35,6 +35,7 @@ replay_pid*
 MovieClient/node_modules
 MovieClient/.pnp
 .pnp.js
+movies/src/main/static/node/node_modules
 
 # testing
 MovieClient/coverage

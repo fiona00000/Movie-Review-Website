@@ -1,7 +1,11 @@
 {
   "name": "movie-gold-v1",
   "version": "0.1.0",
+  "main": "index.js",
+  "homepage": "./build/",
   "private": true,
+  "author": "Fiona Leung",
+  "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -24,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf ../movies/src/main/resources/static/build && react-scripts build && cp -r ./build ../movies/src/main/resources/static/build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

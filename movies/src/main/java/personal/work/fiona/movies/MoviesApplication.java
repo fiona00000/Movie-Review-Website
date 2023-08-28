@@ -12,8 +12,8 @@ public class MoviesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
-	@GetMapping("/root") /*inform system it's a get end point in route "/", so we can change it to any other routes */
-	public String apiRoot(){
-		return "Hello World!";
-	}
+//	@GetMapping("/root") /*inform system it's a get end point in route "/", so we can change it to any other routes */
+//	public String apiRoot(){
+//		return "Hello World!";
+//	}
 }
